@@ -8,6 +8,9 @@ if [[ $? -eq 0 ]]; then
 
     echo "uninstall succesfully"
 
+    sleep 1
+    rm -f "/usr/local/bin/uninstall_switch"
+
 else
     echo "run the installer first"
 
